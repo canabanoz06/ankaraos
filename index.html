@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AnkaraOS Kale 1.0.9</title>
+<meta name="description" content="AnkaraOS Kale: Arch Linux tabanlı, KDE Plasma masaüstlü Türkçe Linux dağıtımı.">
+<style>
+:root{--bg:#fbf7f2;--fg:#1f1b16;--mut:#6b6258;--acc:#c0602f;--card:#fff;--line:#e6ddd2;--night:#14213d;--sun:#e07a3f;--amber:#f2a541}
+@media (prefers-color-scheme:dark){:root{--bg:#12100d;--fg:#efe7dd;--mut:#a89c8f;--acc:#f0a070;--card:#1d1915;--line:#3a322a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--acc)}
+.hero{background:linear-gradient(120deg,#0b1324 0%,var(--night) 55%,#3a2a3a 100%);color:#fff;padding:56px 16px 48px;
+border-bottom:5px solid var(--sun)}
+.hero .in{max-width:980px;margin:0 auto}
+.hero h1{margin:0;font-size:clamp(2rem,6vw,3.2rem);letter-spacing:-.02em}
+.hero h1 span{color:var(--amber)}
+.hero p{max-width:640px;margin:12px 0 0;font-size:1.1rem;color:#e7e2f0}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.btn{display:inline-flex;flex-direction:column;padding:12px 20px;border-radius:12px;text-decoration:none;font-weight:700;
+background:linear-gradient(90deg,var(--sun),var(--amber));color:#0b1324;min-width:210px}
+.btn span{font-weight:400;font-size:.85rem}
+.btn.alt{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.35)}
+.small{font-size:.85rem;color:#c9c3d6;margin-top:12px}
+.small a{color:var(--amber)}
+main{max-width:980px;margin:0 auto;padding:8px 16px 64px}
+h2{margin-top:2.4em;font-size:1.4rem} h2 small,h3 small{color:var(--mut);font-weight:400}
+.feats{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:16px}
+.feat{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.feat img{width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top;display:block;border-bottom:1px solid var(--line)}
+.feat h3{margin:12px 14px 4px;font-size:1.05rem} .feat p{margin:0 14px 14px;color:var(--mut);font-size:.95rem}
+table{border-collapse:collapse;width:100%;background:var(--card);border-radius:10px;overflow:hidden}
+td,th{border-bottom:1px solid var(--line);padding:8px 12px;text-align:left}
+ol li{margin:.3em 0}
+.iso{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:12px 0}
+.iso h3{margin:0 0 6px;font-size:1.05rem;word-break:break-all} .iso h3 span{color:var(--mut);font-weight:400}
+code,pre{font:13px/1.5 ui-monospace,monospace;word-break:break-all} pre{background:var(--card);border:1px solid var(--line);
+border-radius:8px;padding:12px;overflow-x:auto;white-space:pre-wrap} small{color:var(--mut)}
+footer{max-width:980px;margin:0 auto;padding:0 16px 40px;color:var(--mut);font-size:.85rem}
+</style></head><body>
+<header class="hero"><div class="in">
+<h1>AnkaraOS <span>Kale</span></h1>
+<p>Arch Linux tabanlı, KDE Plasma masaüstlü <b>Türkçe</b> Linux dağıtımı. Windows'tan geçenlere tanıdık, e-İmza ve
+e-Devlet'e hazır; içinde bilgisayarınızda çalışan yapay zeka yardımcısı <b>Pamuk</b> var.<br>
+<small lang="en" style="color:#c9c3d6">A Turkish Linux distribution based on Arch Linux with KDE Plasma.</small></p>
+<div class="btns"><a class="btn alt" href="https://archive.org/download/ankaraos-1.0.1/ankaraos-1.0.1-kale-x86_64.iso">⬇ Tam ISO
+<span>11,3 GB · Pamuk modeli içinde</span></a><a class="btn" href="https://archive.org/download/ankaraos-1.0.1/ankaraos-1.0.1-kale-hafif-x86_64.iso">⬇ Hafif ISO
+<span>6,7 GB · 8 GB USB</span></a></div>
+<p class="small">Sürüm 1.0.9 · 2026-10-22 · Ücretsiz ve özgür (GPL-3.0) ·
+<a href="https://github.com/canabanoz06/ankaraos">GitHub</a> ·
+<a href="https://github.com/canabanoz06/ankaraos/issues">Sorun bildir</a></p>
+</div></header>
+<main>
+<h2>Neler var? <small lang="en">Highlights</small></h2>
+<div class="feats"><article class="feat"><img src="ekran/merkez.png" alt="Türkçe ve yardımcı" loading="lazy">
+<h3>Türkçe ve yardımcı <small lang="en">Turkish and helpful</small></h3><p>Kartlı AnkaraOS Merkezi, Türkçe arayüz ve kurucu; bilgisayarınızda çalışan yapay zeka yardımcısı Pamuk soru cevaplar, ayar değiştirir, program kurar. Verileriniz bilgisayardan çıkmaz.</p></article><article class="feat"><img src="ekran/guncelleme-merkezi.png" alt="Tek yerden güncelleme" loading="lazy">
+<h3>Tek yerden güncelleme <small lang="en">Updates in one place</small></h3><p>AnkaraOS, sistem paketleri, Flathub uygulamaları ve ürün yazılımı tek pencerede; her güncellemeden önce anlık görüntü, bozulursa açılış menüsünden geri dönüş.</p></article><article class="feat"><img src="ekran/eimza.png" alt="e-İmza ve e-Devlet" loading="lazy">
+<h3>e-İmza ve e-Devlet <small lang="en">e-Signature and e-Devlet</small></h3><p>AKİS kartlı e-imza tek düğmeyle hazırlanır; e-Devlet&#x27;e e-İmza ile giriş aynı pencereden.</p></article><article class="feat"><img src="ekran/windows-rehberi.png" alt="Windows&#x27;tan geçiş kolay" loading="lazy">
+<h3>Windows&#x27;tan geçiş kolay <small lang="en">Easy switch from Windows</small></h3><p>&quot;Windows&#x27;tan mı geliyorsunuz?&quot; rehberi; Win+E, Win+R, Ctrl+Shift+Esc gibi tanıdık kısayollar; Word, Excel ve PowerPoint biçiminde kaydeden LibreOffice; Windows programları için Wine.</p></article></div>
+<h2>Yenilikler <small lang="en">What's new in 1.0.9</small></h2>
+<ul><li>Windows sonradan kurulursa (aynı ya da ayrı diske) açılış seçim ekranı geri gelir: AnkaraOS ilk açılışta Windows&#x27;u bulup menüye ekler, kendi açılış girdisini gerekirse yeniden oluşturur ve Windows diskinin açılış yolunu da devralır.</li></ul>
+<ul lang="en"><small><li>If Windows is installed later (on the same or a separate disk), the boot menu comes back: on its next start AnkaraOS finds Windows, adds it to the menu, recreates its own boot entry if needed and also takes over the Windows disk&#x27;s boot path.</li></small></ul>
+<h2>Sistem gereksinimleri <small lang="en">Requirements</small></h2>
+<table><tr><th></th><th>En az</th><th>Önerilen</th></tr>
+<tr><td>İşlemci</td><td>64 bit, UEFI</td><td>4 çekirdek</td></tr>
+<tr><td>Bellek</td><td>4 GB</td><td>8 GB+ (Pamuk'un büyük modeli için)</td></tr>
+<tr><td>Disk</td><td>40 GB</td><td>100 GB, SSD</td></tr>
+<tr><td>USB bellek</td><td>8 GB (hafif ISO)</td><td>16 GB (tam ISO)</td></tr></table>
+<h2>Kurulum <small lang="en">Installation</small></h2>
+<ol><li>ISO'yu indirin (yukarıdaki düğmeler) ve isterseniz doğrulayın.</li>
+<li>USB belleğe yazın: Windows'ta <a href="https://rufus.ie">Rufus</a> ya da <a href="https://www.ventoy.net">Ventoy</a>.</li>
+<li>Bilgisayarı USB'den açın (açılışta F12/F9/Esc). Önce kurmadan deneyin; beğenirseniz masaüstündeki
+<b>"AnkaraOS'u kur"</b>.</li>
+<li>Windows'un yanına kuracaksanız önce Windows'ta <i>Hızlı Başlatma</i>'yı kapatın, BitLocker'ı askıya alın ve önemli
+dosyalarınızı yedekleyin. Secure Boot açıksa kurulum sonunda gösterilen 6 haneli kodu ilk açılışta mavi ekranda girin.</li></ol>
+<h2>İndirme dosyaları <small lang="en">Files</small></h2>
+<section class="iso"><h3><a href="https://archive.org/download/ankaraos-1.0.1/ankaraos-1.0.1-kale-x86_64.iso">ankaraos-1.0.1-kale-x86_64.iso</a> <span>11,3 GB</span></h3>
+<p>Tam sürüm — Pamuk&#x27;un büyük modeli (Gemma 4 E4B) içinde, kurulumda indirme yok<br><small lang="en">Full — Pamuk&#x27;s large model (Gemma 4 E4B) included, no download during setup</small></p>
+<p class="links"><a href="ankaraos-1.0.1-kale-x86_64.iso.sig">GPG imzası (.sig)</a> · <a href="ankaraos-1.0.1-kale-x86_64.iso.sha256">SHA-256</a>
+</p>
+<code>41ff74547d9584a8c32dc1a485e5935c37a2b84ea7add50081bd47637ee0c231</code></section><section class="iso"><h3><a href="https://archive.org/download/ankaraos-1.0.1/ankaraos-1.0.1-kale-hafif-x86_64.iso">ankaraos-1.0.1-kale-hafif-x86_64.iso</a> <span>6,7 GB</span></h3>
+<p>Hafif sürüm — 8 GB&#x27;lık USB belleğe sığar; Pamuk&#x27;un büyük modeli kurulumdan sonra indirilir<br><small lang="en">Lite — fits on an 8 GB USB stick; Pamuk&#x27;s large model is downloaded after installation</small></p>
+<p class="links"><a href="ankaraos-1.0.1-kale-hafif-x86_64.iso.sig">GPG imzası (.sig)</a> · <a href="ankaraos-1.0.1-kale-hafif-x86_64.iso.sha256">SHA-256</a>
+</p>
+<code>137439874f1e1fe53cbe066596a944e2c5b281352569b75cf30ed618e0e39e05</code></section>
+<h2>Doğrulama <small lang="en">Verification</small></h2>
+<p>İndirdiğiniz dosyanın bozulmadığını ve AnkaraOS'tan geldiğini denetleyin. Sürüm anahtarı parmak izi:<br>
+<code>D5FECBD6330A7272030AEC0AB361BC62E6D61226</code></p>
+<pre>gpg --import ankaraos-release-key.asc
+gpg --verify &lt;ISO&gt;.sig &lt;ISO&gt;
+sha256sum -c SHA256SUMS --ignore-missing</pre>
+<p><a href="ankaraos-release-key.asc">ankaraos-release-key.asc</a> · <a href="SHA256SUMS">SHA256SUMS</a> ·
+<a href="SHA256SUMS.asc">SHA256SUMS.asc</a></p>
+<h2>Kurulu sistemi güncellemek <small lang="en">Updating an installed system</small></h2>
+<p>AnkaraOS yeni sürümü kendisi bildirir: Başlat menüsü &gt; <b>Güncelleme Merkezi</b>. Elle:
+<a href="ankaraos-update-1.0.9.tar.zst">ankaraos-update-1.0.9.tar.zst</a> + <a href="ankaraos-update-1.0.9.tar.zst.sig">.sig</a> indirip
+<code>ankaraos-self-update ankaraos-update-1.0.9.tar.zst</code></p>
+<h3>1.0.0-rc21 – rc24 kuranlar <small lang="en">If you installed 1.0.0-rc21 – rc24</small></h3>
+<p>Bu test sürümleri artık kapalı olan eski güncelleme adresine bakıyor ve yeni sürümü kendiliğinden bulamıyor.
+Bir kez Konsole'da şunu çalıştırın (yönetici parolanız sorulur); sonraki güncellemeler yine kendiliğinden gelir:<br>
+<small lang="en">These test releases look at an old update address that no longer exists. Run this once in Konsole (your
+administrator password is asked); later updates arrive automatically again:</small></p>
+<pre>echo https://canabanoz06.github.io/ankaraos/ | sudo tee /etc/ankaraos/release-url
+sudo ankaraos-release-check --install</pre>
+</main>
+<footer>AnkaraOS bağımsız bir projedir; Arch Linux, KDE, TÜBİTAK, Kamu SM ya da Türksat ile resmî bir bağı yoktur.
+Ekran görüntülerindeki "Ankara Kalesi, gece" fotoğrafı: Diego Delso, CC BY-SA 4.0 (Wikimedia Commons).</footer>
+</body></html>

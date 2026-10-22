@@ -1,0 +1,36 @@
+{
+  "name": "AnkaraOS",
+  "codename": "Kale",
+  "version": "1.0.9",
+  "date": "2026-10-22",
+  "key_fingerprint": "D5FECBD6330A7272030AEC0AB361BC62E6D61226",
+  "update": {
+    "file": "ankaraos-update-1.0.9.tar.zst",
+    "sha256": "56e6eafe8ce7fb24643131a3986bc5c302441aa8e56c40ec2586ec6990b89d69",
+    "size": 31103128
+  },
+  "iso": [
+    {
+      "file": "ankaraos-1.0.1-kale-x86_64.iso",
+      "sha256": "41ff74547d9584a8c32dc1a485e5935c37a2b84ea7add50081bd47637ee0c231",
+      "size": 11264589824,
+      "edition": "full",
+      "url": "https://archive.org/download/ankaraos-1.0.1/ankaraos-1.0.1-kale-x86_64.iso"
+    },
+    {
+      "file": "ankaraos-1.0.1-kale-hafif-x86_64.iso",
+      "sha256": "137439874f1e1fe53cbe066596a944e2c5b281352569b75cf30ed618e0e39e05",
+      "size": 6673793024,
+      "edition": "lite",
+      "url": "https://archive.org/download/ankaraos-1.0.1/ankaraos-1.0.1-kale-hafif-x86_64.iso"
+    }
+  ],
+  "notes": {
+    "tr": [
+      "Windows sonradan kurulursa (aynı ya da ayrı diske) açılış seçim ekranı geri gelir: AnkaraOS ilk açılışta Windows'u bulup menüye ekler, kendi açılış girdisini gerekirse yeniden oluşturur ve Windows diskinin açılış yolunu da devralır."
+    ],
+    "en": [
+      "If Windows is installed later (on the same or a separate disk), the boot menu comes back: on its next start AnkaraOS finds Windows, adds it to the menu, recreates its own boot entry if needed and also takes over the Windows disk's boot path."
+    ]
+  }
+}
